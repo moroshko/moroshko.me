@@ -5,7 +5,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "check": "bunx @biomejs/biome check --apply ."
   },
   "dependencies": {
     "react": "18.3.1",
