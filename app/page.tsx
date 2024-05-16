@@ -50,14 +50,14 @@ const HomePage = () => {
           companyUrl="https://latitudefinancial.com.au"
           years="Aug 2019 – Sep 2021"
         >
-          Managed a team of 4 people to rebuild the new Latitude Service Centre.
-          Creator of the Basis Design System.
+          Managed a team of 4 engineers to rebuild the new Latitude Service
+          Centre. Created the Basis Design System and helped teams across the
+          company to adopt it.
         </WorkItem>
         <WorkItem company="Facebook" years="Nov 2016 – May 2019">
           Co-founded a new data annotation platform on the Computer Vision team.
-          Designed and built from scratch multiple annotation tools and the
-          Admin UI for managing the annotation process. Worked with 20+ teams
-          across Facebook to improve the platform.
+          Designed and built from scratch multiple annotation tools, and worked
+          with 20+ teams across Facebook to improve the platform.
         </WorkItem>
         <WorkItem
           company="SEEK"

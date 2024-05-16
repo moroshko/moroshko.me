@@ -14,7 +14,7 @@ const WorkItem = ({ company, companyUrl, years, children }: Props) => {
         {companyUrl === undefined ? (
           <span
             className="font-semibold hover:underline text-lg cursor-help"
-            title="Really?"
+            title="Really? 😊"
           >
             {company}
           </span>
@@ -30,7 +30,7 @@ const WorkItem = ({ company, companyUrl, years, children }: Props) => {
         )}
         <span className="text-xs text-gray-500">{years}</span>
       </h3>
-      <p>{children}</p>
+      <p className="text-pretty">{children}</p>
     </div>
   );
 };
