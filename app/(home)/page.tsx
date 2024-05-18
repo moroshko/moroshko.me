@@ -1,7 +1,13 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import profilePic from "../../public/images/misha.jpeg";
 import { Main } from "../components/Main/Main";
 import { About } from "./components/About/About";
+
+export const metadata: Metadata = {
+  title: "Misha Moroshko",
+  description: "Home page of Misha Moroshko",
+};
 
 const HomePage = () => {
   return (
