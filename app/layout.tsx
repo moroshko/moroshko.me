@@ -4,7 +4,7 @@ import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
 import type { Metadata } from "next";
 import type { PropsWithChildren } from "react";
-import { Header } from "./components/Header";
+import { Header } from "./components/Header/Header";
 
 export const metadata: Metadata = {
   title: "Misha Moroshko",

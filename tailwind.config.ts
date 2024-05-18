@@ -14,6 +14,9 @@ const config: Config = {
       screens: {
         xs: "512px",
       },
+      zIndex: {
+        top: "1",
+      },
     },
   },
   plugins: [],
