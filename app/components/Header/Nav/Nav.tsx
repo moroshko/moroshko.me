@@ -2,7 +2,6 @@ import { NavItem } from "./NavItem";
 import { BrandGithubIcon } from "./icons/BrandGithubIcon";
 import { BriefcaseIcon } from "./icons/BriefcaseIcon";
 import { HomeIcon } from "./icons/HomeIcon";
-import { MailIcon } from "./icons/MailIcon";
 
 const Nav = () => {
   return (
@@ -17,9 +16,9 @@ const Nav = () => {
         <NavItem ariaLabel="Open Source" href="/open-source">
           <BrandGithubIcon />
         </NavItem>
-        <NavItem ariaLabel="Contact" href="/contact">
+        {/* <NavItem ariaLabel="Contact" href="/contact">
           <MailIcon />
-        </NavItem>
+        </NavItem> */}
       </ul>
     </nav>
   );
