@@ -13,7 +13,7 @@ const Nav = () => {
         <NavItem ariaLabel="Work" href="/work">
           <BriefcaseIcon />
         </NavItem>
-        <NavItem ariaLabel="Open Source" href="/open-source">
+        <NavItem ariaLabel="Code" href="/code">
           <CodeIcon />
         </NavItem>
         {/* <NavItem ariaLabel="Contact" href="/contact">

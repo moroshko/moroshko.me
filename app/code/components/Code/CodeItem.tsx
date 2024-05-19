@@ -7,7 +7,7 @@ type Props = {
   children: ReactNode;
 };
 
-const OpenSourceItem = async ({ repoName, children }: Props) => {
+const CodeItem = async ({ repoName, children }: Props) => {
   const { stars } = await getRepoData(repoName);
 
   return (
@@ -28,4 +28,4 @@ const OpenSourceItem = async ({ repoName, children }: Props) => {
   );
 };
 
-export { OpenSourceItem };
+export { CodeItem };
