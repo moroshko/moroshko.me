@@ -5,6 +5,7 @@ import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
 import type { Metadata } from "next";
 import type { PropsWithChildren } from "react";
+import ogImage from "../public/images/og.png";
 import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 
@@ -14,18 +15,18 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "/images/og.png",
-        width: 1200,
-        height: 630,
+        url: ogImage.src,
+        width: ogImage.width,
+        height: ogImage.height,
       },
     ],
   },
   twitter: {
     images: [
       {
-        url: "/images/og.png",
-        width: 1200,
-        height: 630,
+        url: ogImage.src,
+        width: ogImage.width,
+        height: ogImage.height,
       },
     ],
   },
