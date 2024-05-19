@@ -1,4 +1,4 @@
-import { ImageResponse } from "next/og";
+import { ImageResponse } from "@vercel/og";
 
 // Image metadata
 export const contentType = "image/png";
@@ -65,7 +65,7 @@ export default async function Image() {
             fontSize: "44px",
           }}
         >
-          Front End engineer
+          Principal Front End engineer
         </p>
         <p
           style={{
