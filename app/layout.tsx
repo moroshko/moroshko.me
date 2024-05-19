@@ -4,6 +4,7 @@ import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
 import type { Metadata } from "next";
 import type { PropsWithChildren } from "react";
+import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 
 export const metadata: Metadata = {
@@ -17,6 +18,7 @@ const RootLayout = ({ children }: PropsWithChildren) => {
       <body className="bg-grid bg-fixed">
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
