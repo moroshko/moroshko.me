@@ -9,7 +9,7 @@ type Props = {
 
 const WorkItem = ({ company, companyUrl, years, children }: Props) => {
   return (
-    <div className="space-y-0.5 border-b border-gray-300 border-dashed pb-5">
+    <div className="space-y-0.5">
       <h3 className="flex justify-between items-baseline">
         {companyUrl === undefined ? (
           <span

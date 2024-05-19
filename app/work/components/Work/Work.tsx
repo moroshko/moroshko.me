@@ -2,8 +2,8 @@ import { WorkItem } from "./WorkItem";
 
 const Work = () => {
   return (
-    <div className="space-y-5">
-      <h2 className="text-2xl font-semibold text-gray-800">Work</h2>
+    <div className="space-y-10">
+      <h2 className="text-3xl font-semibold text-gray-800">Work</h2>
       <WorkItem
         company="Surreal"
         companyUrl="https://surreal.live"
