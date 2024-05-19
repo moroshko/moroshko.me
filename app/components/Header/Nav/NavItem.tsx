@@ -17,16 +17,18 @@ const NavItem = ({ ariaLabel, href, children }: Props) => {
     (segment === "(home)" && href === "/") || href === `/${segment}`;
 
   return (
-    <Link
-      className={cx(
-        "p-2 rounded-lg hover:bg-gray-100 transition-colors",
-        isActive && "bg-gray-100 text-gray-800",
-      )}
-      href={href}
-      aria-label={ariaLabel}
-    >
-      {children}
-    </Link>
+    <li>
+      <Link
+        className={cx(
+          "p-2 inline-block rounded-lg hover:bg-gray-100 transition-colors",
+          isActive && "bg-gray-100 text-gray-800",
+        )}
+        href={href}
+        aria-label={ariaLabel}
+      >
+        {children}
+      </Link>
+    </li>
   );
 };
 
