@@ -26,11 +26,11 @@ const getImageSrc = async () => {
 };
 
 export default async function Image() {
-  const geistRegular = await fetch(
-    new URL("../fonts/Geist-Regular.ttf", baseUrl),
+  const interRegular = await fetch(
+    new URL("../fonts/Inter-Regular.ttf", baseUrl),
   ).then((res) => res.arrayBuffer());
-  const geistSemiBold = await fetch(
-    new URL("../fonts/Geist-SemiBold.ttf", baseUrl),
+  const interSemiBold = await fetch(
+    new URL("../fonts/Inter-SemiBold.ttf", baseUrl),
   ).then((res) => res.arrayBuffer());
   const imageSrc = await getImageSrc();
 
@@ -38,7 +38,7 @@ export default async function Image() {
     <div
       tw="flex items-center justify-center w-full h-full bg-white"
       style={{
-        fontFamily: '"Geist Regular"',
+        fontFamily: '"Inter Regular"',
       }}
     >
       <img
@@ -54,7 +54,7 @@ export default async function Image() {
       <div tw="ml-28 flex flex-col">
         <p
           style={{
-            fontFamily: '"Geist SemiBold"',
+            fontFamily: '"Inter SemiBold"',
             fontSize: "60px",
           }}
         >
@@ -80,14 +80,14 @@ export default async function Image() {
       ...size,
       fonts: [
         {
-          name: "Geist Regular",
-          data: geistRegular,
+          name: "Inter Regular",
+          data: interRegular,
           style: "normal",
           weight: 400,
         },
         {
-          name: "Geist SemiBold",
-          data: geistSemiBold,
+          name: "Inter SemiBold",
+          data: interSemiBold,
           style: "normal",
           weight: 600,
         },
