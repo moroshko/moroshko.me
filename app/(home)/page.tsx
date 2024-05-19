@@ -7,7 +7,7 @@ import { About } from "./components/About/About";
 
 export const metadata: Metadata = {
   title: "Misha Moroshko",
-  description: "Home page of Misha Moroshko",
+  description: "Personal site of Misha Moroshko",
 };
 
 const HomePage = () => {
