@@ -16,7 +16,7 @@ const HomePage = () => {
         <Image
           className="rounded-full size-32 grayscale hover:grayscale-0 transition-[filter]"
           src={profilePic}
-          alt="Picture of Misha Moroshko"
+          alt="Profile image of Misha Moroshko"
           placeholder="blur"
         />
         <About />
