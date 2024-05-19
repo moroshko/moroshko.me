@@ -6,7 +6,7 @@ import { StackOverflowIcon } from "./icons/StackOverflowIcon";
 
 const Footer = () => {
   return (
-    <footer className="flex text-gray-500 items-center justify-between mx-auto max-w-lg py-6 px-6 xs:px-12 bg-white xs:border-x xs:border-gray-200">
+    <footer className="flex text-gray-500 items-center justify-between mx-auto max-w-xl py-6 px-6 xs:px-12 bg-white">
       <p className="text-sm">
         {`© ${new Date().getFullYear()} Misha Moroshko`}
       </p>

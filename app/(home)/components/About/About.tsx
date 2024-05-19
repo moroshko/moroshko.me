@@ -10,11 +10,11 @@ const About = () => {
         Design Systems and Open Source have a special place in my heart.
       </p>
       <p>
-        I like collaborating with kind, like-minded individuals who are
+        I like collaborating with kind and like-minded individuals who are
         constantly learning.
       </p>
       <p>
-        I feel productive these days with TypeScript, Tailwind, and Next.js
+        These days, I feel productive with TypeScript, Tailwind, and Next.js
         deployed on Vercel.
       </p>
       <p>

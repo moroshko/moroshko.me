@@ -6,13 +6,9 @@ const config: Config = {
     extend: {
       fontFamily: {
         sans: ["var(--font-geist-sans)"],
-        mono: ["var(--font-geist-mono)"],
-      },
-      backgroundImage: {
-        grid: "url('/images/grid.svg')",
       },
       screens: {
-        xs: "512px",
+        xs: "576px",
       },
       zIndex: {
         top: "1",
