@@ -15,7 +15,7 @@ const CodePage = () => {
     <Main>
       <div className="space-y-8">
         <Code />
-        <PageLink href="/" direction="left">
+        <PageLink href="/work" direction="left">
           Work
         </PageLink>
       </div>
