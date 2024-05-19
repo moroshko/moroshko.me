@@ -11,6 +11,7 @@ import { Header } from "./components/Header/Header";
 export const metadata: Metadata = {
   title: "Misha Moroshko",
   description: "Personal website of Misha Moroshko",
+  metadataBase: new URL("https://www.moroshko.me"),
 };
 
 const RootLayout = ({ children }: PropsWithChildren) => {
