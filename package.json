@@ -9,6 +9,7 @@
     "env": "vercel env pull .env.local"
   },
   "dependencies": {
+    "@vercel/analytics": "1.2.2",
     "clsx": "2.1.1",
     "geist": "1.3.0",
     "next": "14.2.3",
