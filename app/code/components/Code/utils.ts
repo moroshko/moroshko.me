@@ -9,7 +9,7 @@ export const getRepoData = async (
     `https://api.github.com/repos/moroshko/${repoName}`,
     {
       headers: {
-        Authorization: Bun.env.GITHUB_PERSONAL_ACCESS_TOKEN ?? "",
+        Authorization: process.env.GITHUB_PERSONAL_ACCESS_TOKEN ?? "",
       },
     },
   );
