@@ -12,7 +12,7 @@ const OpenGraphPage = () => {
         />
         <div className="ml-28 flex flex-col">
           <p className="text-6xl font-semibold">Misha Moroshko</p>
-          <p className="text-4xl mt-10">Front End engineer</p>
+          <p className="text-4xl mt-10">Product engineer</p>
           <p className="text-3xl mt-10">Melbourne, Australia</p>
         </div>
         <p className="text-2xl text-gray-500 text-center absolute bottom-10">

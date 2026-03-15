@@ -1,3 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --breakpoint-xs: 36rem;
+}
+
+@utility z-top {
+  z-index: 1;
+}

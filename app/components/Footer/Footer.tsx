@@ -1,8 +1,8 @@
-import { SocialLink } from "./SocialLink/SocialLink";
 import { BrandGithubIcon } from "./icons/BrandGithubIcon";
 import { BrandXIcon } from "./icons/BrandXIcon";
 import { LinkedInIcon } from "./icons/LinkedInIcon";
 import { StackOverflowIcon } from "./icons/StackOverflowIcon";
+import { SocialLink } from "./SocialLink/SocialLink";
 
 const Footer = () => {
   return (

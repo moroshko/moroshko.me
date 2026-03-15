@@ -5,12 +5,19 @@ const Work = () => {
     <div className="space-y-10">
       <h2 className="text-3xl font-semibold text-gray-800">Work</h2>
       <WorkItem
+        company="Phonic"
+        companyUrl="https://phonic.co"
+        years="Sep 2024 – Present"
+      >
+        Building a developer-focused voice AI platform.
+      </WorkItem>
+      <WorkItem
         company="Surreal"
         companyUrl="https://surreal.live"
-        years="Sep 2021 – Present"
+        years="Sep 2021 – Aug 2024"
       >
-        Leading Front End engineering of the Surreal platform and the Surreal
-        Design System.
+        Led Front End engineering of the Surreal platform and the Surreal Design
+        System.
       </WorkItem>
       <WorkItem
         company="Latitude"

@@ -9,13 +9,13 @@ export const getRepoData = async (
     `https://api.github.com/repos/moroshko/${repoName}`,
     {
       headers: {
-        Authorization: `Bearer ${process.env.GITHUB_PERSONAL_ACCESS_TOKEN}`,
+        Authorization: Bun.env.GITHUB_PERSONAL_ACCESS_TOKEN ?? "",
       },
     },
   );
 
   if (!response.ok) {
-    console.error(`Failed to fetch moroshko/${repoName}`);
+    console.error(`Failed to fetch moroshko/${repoName}`, response.statusText);
 
     return {
       stars: null,

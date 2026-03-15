@@ -1,9 +1,11 @@
 const About = () => {
   return (
     <div className="space-y-5">
+      <p>I’m a product engineer from Melbourne, Australia 🇦🇺</p>
       <p>
-        I’m a Front End engineer from Melbourne, Australia 🇦🇺
-        <br />I love building web stuff that bring people joy.
+        I love working with startups in the very early stages who are still
+        looking for product-market fit, where things are changing every day, and
+        there is a lot to build and experiment with.
       </p>
       <p>
         I care a lot about visual design, UX, accessibility and performance.

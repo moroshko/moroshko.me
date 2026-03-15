@@ -1,7 +1,7 @@
-import { NavItem } from "./NavItem";
 import { BriefcaseIcon } from "./icons/BriefcaseIcon";
 import { CodeIcon } from "./icons/CodeIcon";
 import { HomeIcon } from "./icons/HomeIcon";
+import { NavItem } from "./NavItem";
 
 const Nav = () => {
   return (
