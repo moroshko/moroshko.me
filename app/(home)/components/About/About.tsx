@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className="space-y-5">
-      <p>I’m a product engineer from Melbourne, Australia 🇦🇺</p>
+      <p>Hi 👋, I’m a product engineer from Melbourne, Australia 🇦🇺</p>
       <p>
         I love working with startups in the very early stages who are still
         looking for product-market fit, where things are changing every day, and
